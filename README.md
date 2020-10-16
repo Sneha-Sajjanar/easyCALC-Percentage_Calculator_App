@@ -1,4 +1,4 @@
-# easyCALC-percentage_palculator_app
+# easyCALC-percentage_calculator_app
 Calculates the percentage of the student
 
 ## Screenshots
