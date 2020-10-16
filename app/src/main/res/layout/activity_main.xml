@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/c2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Marks below"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="@drawable/back"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/ubuntu"
+        android:textColor="#2196F3"/>
+
+    <EditText
+        android:id="@+id/sub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SUBJECT 1"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:maxLength="3"
+        android:inputType="number"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:id="@+id/sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="SUBJECT 2"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:textAlignment="center"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="3"
+        tools:ignore="HardcodedText"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/sub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="SUBJECT 3"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="3"
+        tools:ignore="HardcodedText"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:id="@+id/sub4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="SUBJECT 4"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="3"
+        tools:ignore="HardcodedText"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/sub5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="SUBJECT 5"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="3"
+        tools:ignore="HardcodedText"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:id="@+id/sub6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="SUBJECT 6"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="3"
+        tools:ignore="HardcodedText"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/sub7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="SUBJECT 7"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="3"
+        tools:ignore="HardcodedText"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/sub8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="SUBJECT 8"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:background="@drawable/custom_edit_text"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="3"
+        tools:ignore="HardcodedText"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/btn"
+        android:textSize="20dp"
+        android:onClick="add"
+        android:text="ADD"
+        android:fontFamily="@font/ubuntu"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="599dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/adobegothicstdbold"
+        android:text="----"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlCompat" />
+
+    <Button
+        android:id="@+id/cal_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/btn"
+        android:textSize="20dp"
+        android:onClick="add"
+        android:text="PERCENT"
+        android:fontFamily="@font/ubuntu"
+        android:textColor="#FFFFFF"/>
+
+
+</RelativeLayout>
+
+
+
+
+    <!--com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sub2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            app:boxBackgroundMode="outline"
+            android:backgroundTint="#3F51B5"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="3"
+            tools:ignore="UnusedAttribute">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:fontFamily="@font/ubuntu"
+                android:hint="SUBJECT 2"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:maxLength="3"
+                tools:ignore="HardcodedText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sub3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            app:boxBackgroundMode="outline"
+            android:backgroundTint="#2196F3"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="3"
+            tools:ignore="UnusedAttribute">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SUBJECT 3"
+                android:fontFamily="@font/ubuntu"
+                android:maxLength="3"
+                android:inputType="number"
+                tools:ignore="HardcodedText"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sub4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            app:boxBackgroundMode="outline"
+            android:backgroundTint="#2196F3"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="3"
+            tools:ignore="UnusedAttribute">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SUBJECT 4"
+                android:fontFamily="@font/ubuntu"
+                android:maxLength="3"
+                android:inputType="number"
+                tools:ignore="HardcodedText"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sub5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            app:boxBackgroundMode="outline"
+            android:backgroundTint="#2196F3"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="3"
+            tools:ignore="UnusedAttribute">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SUBJECT 5"
+                android:fontFamily="@font/ubuntu"
+                android:maxLength="3"
+                android:inputType="number"
+                tools:ignore="HardcodedText"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sub6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            app:boxBackgroundMode="outline"
+            android:backgroundTint="#2196F3"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="3"
+            tools:ignore="UnusedAttribute">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SUBJECT 6"
+                android:fontFamily="@font/ubuntu"
+                android:maxLength="3"
+                android:inputType="number"
+                tools:ignore="HardcodedText"
+                android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout!-->
